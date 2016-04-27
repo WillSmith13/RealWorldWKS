@@ -26,5 +26,26 @@ public class Student {
 		age = newAge;
 	}
 	
+	public int getAge() {
+		return age;
+	}
 
+	public void setGender(String newGender) {
+		gender = newGender;
+	}
+	
+	public String setGender() {
+		return gender;
+	}
+
+	public void setClassYr(int year) {
+		classYr = year;
+	}
+	
+	public int getClassYr() {
+		return classYr;
+	}
+	
+	
+	
 }
