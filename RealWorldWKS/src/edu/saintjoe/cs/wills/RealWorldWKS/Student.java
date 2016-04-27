@@ -6,10 +6,11 @@ public class Student {
 	String gender;
 	int classYr;
 	
-	public Student(String newName, String newGender, int newClassYr) {
+	public Student(String newName, String newGender, int newClassYr, int newAge) {
 		name = newName;
 		gender = newGender;
 		classYr = newClassYr;
+		age = newAge;
 		
 	}
 
@@ -21,7 +22,9 @@ public class Student {
 		return name;
 	}
 	
-	
+	public void setAge(int newAge) {
+		age = newAge;
+	}
 	
 
 }
