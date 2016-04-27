@@ -5,8 +5,17 @@ public class Student {
 	int age;
 	String gender;
 	int classYr;
-
 	
+	public Student(String newName, String newGender, int newClassYr) {
+		name = newName;
+		gender = newGender;
+		classYr = newClassYr;
+		
+	}
+
+		public void setName(String newName) {
+			name = newName;
+		}
 	
 	
 	
