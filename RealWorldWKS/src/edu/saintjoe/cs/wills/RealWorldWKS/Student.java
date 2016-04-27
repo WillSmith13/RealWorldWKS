@@ -17,6 +17,9 @@ public class Student {
 			name = newName;
 		}
 	
+	public String getName() { 
+		return name;
+	}
 	
 	
 	
