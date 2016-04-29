@@ -6,9 +6,9 @@ public class Section {
 		
 		public static String[] classYrNames = {"ImpossibleClassYear", "Freshman", "Sophomore", "Junior", "Senior", "Special"};
 		
-		String room;
-		String teacher;
-		String title;
+		private String room;
+		private String teacher;
+		private String title;
 		Student[] students;
 		
 		public Section (String newTitle, String newTeacher, String newRoom) {

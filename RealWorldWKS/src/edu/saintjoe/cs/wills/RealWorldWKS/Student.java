@@ -1,10 +1,10 @@
 package edu.saintjoe.cs.wills.RealWorldWKS;
 
 public class Student {
-	String name;
-	int age;
-	String gender;
-	int classYr;
+	private String name;
+	private int age;
+	private String gender;
+	private int classYr;
 	
 	public Student(String newName, String newGender, int newClassYr, int newAge) {
 		name = newName;
