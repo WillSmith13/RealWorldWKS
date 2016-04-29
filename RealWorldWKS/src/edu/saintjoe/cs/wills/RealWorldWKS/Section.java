@@ -19,9 +19,14 @@ public class Section {
 		}
 		// Mutator put in for sake of my CMP112 students 
 		public void setStudent(Student newStudent, int whereAt) {
-			students[whereAt] = newStudent;
+			// An important test is needed!!!
+			if (whereAt > (MAXSTUDENTS - 1)) {
+				System.out.println("You are a major idiot!");
+				return;
 		}
+			students[whereAt] = newStudent;
 		
+}
 		
 		
 		public String toString() {
