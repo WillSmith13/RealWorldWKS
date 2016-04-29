@@ -9,7 +9,7 @@ public class Section {
 		private String room;
 		private String teacher;
 		private String title;
-		Student[] students;
+		private Student[] students;
 		
 		public Section (String newTitle, String newTeacher, String newRoom) {
 			students = new Student[MAXSTUDENTS];
@@ -17,6 +17,11 @@ public class Section {
 			teacher = newTeacher;
 			room = newRoom;
 		}
+		// Mutator put in for sake of my CMP112 students 
+		public void setStudent(Student newStudent, int whereAt) {
+			students[whereAt] = newStudent;
+		}
+		
 		
 		
 		public String toString() {
